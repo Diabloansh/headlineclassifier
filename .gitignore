@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Huggingface Cache
+.hf_cache/
+huggingface/
+hub/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project Specific
+results/
+results_*/
+hierarchical-classifier/results/
+hierarchical-classifier/.venv/
+hierarchical-classifier/.hf_cache/
+
+# Matplotlib
+.matplotlib/
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Datasets
+*.json
+*.csv
+Dataset/**/*.json
+Dataset/**/*.csv
+hierarchical-classifier/Dataset/**/*.json
+hierarchical-classifier/Dataset/**/*.csv
+
+# Scratch Files
+scratch_*.py
