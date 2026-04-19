@@ -1,0 +1,83 @@
+{
+  "training_summary": {
+    "stage": "stage2_technology",
+    "topic": "technology",
+    "total_epochs_configured": 20,
+    "epochs_actually_run": 6,
+    "stopped_early": true,
+    "early_stopping_patience": 4,
+    "best_epoch": 2,
+    "best_val_f1": 0.9855813953488372,
+    "final_test_f1": 0.9582326507129418,
+    "final_test_accuracy": 0.958041958041958,
+    "total_training_time": 300.877291
+  },
+  "per_epoch_summary": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9013770984278785,
+      "train_f1": 0.9423413338067003,
+      "train_acc": 0.9412795793163892,
+      "val_f1": 0.9299677309386047,
+      "val_acc": 0.9300699300699301,
+      "val_loss": 0.3650825321674347,
+      "is_best": true,
+      "duration": 49.65908
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.18921350141236973,
+      "train_f1": 0.989708390220474,
+      "train_acc": 0.9894829097283085,
+      "val_f1": 0.9855813953488372,
+      "val_acc": 0.986013986013986,
+      "val_loss": 0.06440600582088034,
+      "is_best": true,
+      "duration": 49.414039
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.05206787632293223,
+      "train_f1": 0.9923498183260492,
+      "train_acc": 0.9921121822962313,
+      "val_f1": 0.9718020359389916,
+      "val_acc": 0.972027972027972,
+      "val_loss": 0.12388459633156243,
+      "is_best": false,
+      "duration": 49.432566
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.035065358583880074,
+      "train_f1": 0.9966665833312499,
+      "train_acc": 0.9964943032427696,
+      "val_f1": 0.9649211140766987,
+      "val_acc": 0.965034965034965,
+      "val_loss": 0.16706524896370764,
+      "is_best": false,
+      "duration": 49.919445
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.011441245654875982,
+      "train_f1": 1.0,
+      "train_acc": 1.0,
+      "val_f1": 0.964787668829826,
+      "val_acc": 0.965034965034965,
+      "val_loss": 0.1432536113344314,
+      "is_best": false,
+      "duration": 49.609866
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.004184128628468089,
+      "train_f1": 1.0,
+      "train_acc": 1.0,
+      "val_f1": 0.9788621719314788,
+      "val_acc": 0.9790209790209791,
+      "val_loss": 0.15226427429944225,
+      "is_best": false,
+      "duration": 49.650901
+    }
+  ]
+}

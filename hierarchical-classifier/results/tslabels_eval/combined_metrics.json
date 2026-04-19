@@ -1,0 +1,9 @@
+{
+  "stage1_topic_accuracy": 0.9482758620689655,
+  "stage1_topic_f1": 0.9235164835164835,
+  "stage2_route_accuracy": 0.6551724137931034,
+  "stage2_route_f1": 0.6465797576908688,
+  "stage2_route_roc_auc": 0.8063623366013072,
+  "topic_misclassifications": 6,
+  "total_samples": 116
+}

@@ -1,0 +1,37 @@
+{
+  "accuracy": 0.999457111834962,
+  "macro_f1": 0.9994571118349619,
+  "weighted_f1": 0.999457111834962,
+  "macro_precision": 0.9994571118349619,
+  "macro_recall": 0.9994571118349619,
+  "roc_auc": 0.9999987842488162,
+  "confusion_matrix": [
+    [
+      1227,
+      0,
+      1
+    ],
+    [
+      0,
+      1228,
+      0
+    ],
+    [
+      1,
+      0,
+      1227
+    ]
+  ],
+  "central_route_precision": 0.999185667752443,
+  "central_route_recall": 0.999185667752443,
+  "central_route_f1": 0.999185667752443,
+  "central_route_support": 1228,
+  "peripheral_route_precision": 1.0,
+  "peripheral_route_recall": 1.0,
+  "peripheral_route_f1": 1.0,
+  "peripheral_route_support": 1228,
+  "neutral_route_precision": 0.999185667752443,
+  "neutral_route_recall": 0.999185667752443,
+  "neutral_route_f1": 0.999185667752443,
+  "neutral_route_support": 1228
+}
